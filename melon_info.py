@@ -32,30 +32,30 @@ from melons import melon_names, melon_prices, melon_seedlessness, melons
 
 
 ### 3 ###
-def print_melons(melons):
+# def print_melons(melons):
 
-    for key, value in melons.items():
+#     for key, value in melons.items():
         
 
-        print(key.upper())
-        print("price:", value["price"])
-        print("seedless:", value["seedless"])
-        print("flesh_color:", value["flesh_color"])
-        print("rind_color:", value["rind_color"])
-        print("average_weight:", value["average_weight"])
-        print("")
+#         print(key.upper())
+#         print("price:", value["price"])
+#         print("seedless:", value["seedless"])
+#         print("flesh_color:", value["flesh_color"])
+#         print("rind_color:", value["rind_color"])
+#         print("average_weight:", value["average_weight"])
+#         print("")
 
 
 
 def print_melons(melons):
 
 
-    for key, value in melons.items():
+    for name, values in melons.items():
 
-        print(key.upper())
+        print(name.upper())
 
-        for key2, value2 in value.items():
-            print(f"{key2}: {value2}")
+        for description, value in values.items():
+            print(f"{description}: {value}")
         print(" ")
 
     
