@@ -3,7 +3,7 @@
 
 from melons import melon_names, melon_prices, melon_seedlessness, melons
 
-
+### 1 ###
 # def print_melon(name, price, seedless):
 #     """Print each melon with corresponding attribute information."""
 
@@ -17,15 +17,26 @@ from melons import melon_names, melon_prices, melon_seedlessness, melons
 # for i in melon_names:
 #     print_melon(melon_names[i], melon_prices[i], melon_seedlessness[i])
 
+
+
+### 2 ###
+# for key, value in melons_info.items():
+#     print(key)
+#     print(f"price: {value[0]}")
+#     print(f"seedless: {value[1]}")
+#     print(f"flesh_color: {value[2]}")
+#     print(f"rind_color: {value[3]}")
+#     print(f"average_weight: {value[4]}")
+#     print("")
+    
+
+
+### 3 ###
 def print_melons(melons):
 
     for key, value in melons.items():
-        # print(
-        #     key, value["price"], value["seedless"], value["flesh_color"], value["rind_color"],
-        #     value["average_weight"] 
-            # )
         
-        
+
         print(key.upper())
         print("price:", value["price"])
         print("seedless:", value["seedless"])
@@ -34,23 +45,6 @@ def print_melons(melons):
         print("average_weight:", value["average_weight"])
         print("")
 
-
-    # print(
-    #     f"{key.upper()} \nprice: \nseedless: \nflesh_color:"
-    #       )
-
-
-
-
-for key, value in melons_info.items():
-    print(key)
-    print(f"price: {value[0]}")
-    print(f"seedless: {value[1]}")
-    print(f"flesh_color: {value[2]}")
-    print(f"rind_color: {value[3]}")
-    print(f"average_weight: {value[4]}")
-    print("")
-    
 
     
 print_melons(melons)
