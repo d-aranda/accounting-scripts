@@ -42,14 +42,14 @@ def print_melons(melons):
 
 
 
-# for key, value in melons_info.items():
-#     print(key)
-#     print(f"price: {value[0]}")
-#     print(f"seedless: {value[1]}")
-#     print(f"flesh_color: {value[2]}")
-#     print(f"rind_color: {value[3]}")
-#     print(f"average_weight: {value[4]}")
-#     print("")
+for key, value in melons_info.items():
+    print(key)
+    print(f"price: {value[0]}")
+    print(f"seedless: {value[1]}")
+    print(f"flesh_color: {value[2]}")
+    print(f"rind_color: {value[3]}")
+    print(f"average_weight: {value[4]}")
+    print("")
     
 
     
