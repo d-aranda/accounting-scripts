@@ -55,7 +55,8 @@ def print_melons(melons):
         print(key.upper())
 
         for key2, value2 in value.items():
-            print(value2)
+            print(f"{key2}: {value2}")
+        print(" ")
 
     
 print_melons(melons)
