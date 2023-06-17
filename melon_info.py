@@ -46,5 +46,16 @@ def print_melons(melons):
         print("")
 
 
+
+def print_melons(melons):
+
+
+    for key, value in melons.items():
+
+        print(key.upper())
+
+        for key2, value2 in value.items():
+            print(value2)
+
     
 print_melons(melons)
